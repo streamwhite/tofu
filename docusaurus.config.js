@@ -118,26 +118,7 @@ const config = {
       },
     ],
   ],
-  // plugins: [
-  //   [
-  //     '@docusaurus/plugin-content-docs',
-  //     {
-  //       id: 'docs-api',
-  //       path: 'docs-api',
-  //       routeBasePath: 'docs-api',
-  //       sidebarPath: require.resolve('./sidebars.js'),
-  //     },
-  //   ],
-  //   [
-  //     '@docusaurus/plugin-content-docs',
-  //     {
-  //       id: 'docs-system',
-  //       path: 'docs-system',
-  //       routeBasePath: 'docs-system',
-  //       sidebarPath: require.resolve('./sidebars.js'),
-  //     },
-  //   ],
-  // ],
+  
 
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
