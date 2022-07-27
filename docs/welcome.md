@@ -3,6 +3,6 @@ slug: /
 sidebar_position: 1
 ---
 
-# 关于
+# About
 
-## 目的
+## What Is It
