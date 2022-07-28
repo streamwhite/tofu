@@ -10,8 +10,8 @@ const config = {
   tagline: 'Dinosaurs are cool',
   url: 'https://dev.yiyideer.com/',
   baseUrl: '/',
-  onBrokenLinks: 'ignore',
-  onBrokenMarkdownLinks: 'ignore',
+  onBrokenLinks: 'throw',
+  onBrokenMarkdownLinks: 'throw',
   favicon: 'img/seal-logo.png',
 
   // GitHub pages deployment config.
@@ -25,6 +25,12 @@ const config = {
   i18n: {
     defaultLocale: 'en',
     locales: ['en'],
+    localeConfigs: {
+      en: {
+        htmlLang: 'en-GB',
+      },
+      // You can omit a locale (e.g. fr) if you don't need to override the defaults
+    }
   },
 
   presets: [
