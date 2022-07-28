@@ -9,7 +9,7 @@ const config = {
   title: 'Web Dev',
   tagline: 'Dinosaurs are cool',
   url: 'https://dev.yiyideer.com/',
-  baseUrl: '/',
+  baseUrl: '/docs/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'throw',
   favicon: 'img/seal-logo.png',
